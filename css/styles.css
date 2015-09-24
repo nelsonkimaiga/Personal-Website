@@ -64,7 +64,7 @@ ol,ul {
 
 /*body styling*/
 body {
-	background: black url(images/) repeat-x center top fixed;
+	background: #f4f3f3 url() repeat-x center top fixed;
 	color: #444948;
 	font: normal 16px/24px "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -152,7 +152,7 @@ header .kimaiga {
 	}
 
 	header .social {
-		text-align: center;
+		text-align: left;
 		padding-top: 0;
 	}
 
@@ -168,26 +168,27 @@ header .kimaiga {
 			background-repeat: no-repeat;
 			text-align: center;
 			border: 0;
-
 			-webkit-transition: all .2s ease-in-out;
     	transition: all .2s ease-in-out;
 		}
 
 /*social media icons*/
-header .social a.twitter  { 
-	background-image: url(images/twitter.png); 
+header .social a.twitter{ 
+	background-image: url(social/twitter.png); 
 }
 
-header .social a.linkedin { 
-	background-image: url(images/linkedin.png); 
+header .social a.linkedin{ 
+	background-image: url(social/linkedin.png); 
 }
 
-header .social a.email    { 
-	background-image: url(images/email.png); 
+header .social a.email{ 
+	background-image: url(social/mail.png); 
 }
 header .social a.github{
-	background-image: url(images/github1.png);
+	background-image: url(social/github.png);
 }
+
+header .social a.medium   { background-image: url(images/medium.png); display:none; }
 
 .skills {
 	list-style: none;
