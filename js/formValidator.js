@@ -25,7 +25,7 @@ $(function() {
 		$(document).scroll(function() {
 			var pos = $(document).scrollTop();
 
-			// $('#contact').css('display', ((pos > headerHeight) ? 'block' : 'none'));
+
 
 				var parallax = parseInt(pos * -0.3) + 'px';
 				var rgba		 = (pos / headerHeight) * 0.4;
@@ -64,7 +64,7 @@ $(function() {
 			$.ajax({
 				type: $("form").attr("method"),
 				url: $("form").attr("action"),
-				data: "name=" + $("#name").val() + "&email=" + $("#email").val() + "&subject=" + $("#subject").val() + "&budget=" + $("#budget").val() + "&message=" + $("#message").val().replace('&','%26'),
+				data: "name=" + $("#name").val() + "&email=" + $("#email").val() + "&subject=" + $("#subject").val() + "&message=" + $("#message").val() + "&message=" + $("#message").val().replace('&','%26'),
 				beforeSend: function() {
 					$("#status button").hide();
 				},

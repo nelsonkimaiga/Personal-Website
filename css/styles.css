@@ -64,9 +64,10 @@ ol,ul {
 
 /*body styling*/
 body {
-	background: #f4f3f3 url() repeat-x center top fixed;
+	background: black url("") repeat-x center top fixed;
 	color: #444948;
 	font: normal 16px/24px "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
+	
 }
 
 a {
@@ -126,8 +127,8 @@ header .kimaiga {
 	header .avatar {
 		display: block;
 		border-radius: 50%;
-		width: 90px;
-		height: 90px;
+		width: 100px;
+		height: 100px;
 		margin: 0 auto;
 	}
 
@@ -152,12 +153,11 @@ header .kimaiga {
 	}
 
 	header .social {
-		text-align: left;
+		text-align: center;
 		padding-top: 0;
 	}
 
-		header .social a 
-		{
+		header .social a {
 			width: 50px;
 			height: 50px;
 			display: inline-block;
@@ -168,27 +168,18 @@ header .kimaiga {
 			background-repeat: no-repeat;
 			text-align: center;
 			border: 0;
-			-webkit-transition: all .2s ease-in-out;
+
+			-webkit-transition: all .2s ease-in-out; /* For Safari 3.1 to 6.0 */
     	transition: all .2s ease-in-out;
 		}
 
 /*social media icons*/
-header .social a.twitter{ 
-	background-image: url(social/twitter.png); 
-}
-
-header .social a.linkedin{ 
-	background-image: url(social/linkedin.png); 
-}
-
-header .social a.email{ 
-	background-image: url(social/mail.png); 
-}
-header .social a.github{
-	background-image: url(social/github.png);
-}
-
-header .social a.medium   { background-image: url(images/medium.png); display:none; }
+			header .social a.twitter  { background-image: url(social/twitter.png); }
+			header .social a.dribbble { background-image: url(social/dribbble.png); }
+			header .social a.linkedin { background-image: url(social/linkedin.png); }
+			header .social a.medium   { background-image: url(social/medium.png); display:none; }
+			header .social a.email    { background-image: url(social/email.png); }
+			header .social a.github   { background-image: url(social/github.png); }
 
 .skills {
 	list-style: none;
@@ -618,7 +609,7 @@ footer {
 
 	div.button { padding-top: 10px; }
 
-	header .ryan { padding-top: 120px; }
+	header .kimaiga { padding-top: 120px; }
 
 	header h2 span { padding-top: 0; padding-bottom: 20px; }
 }	
