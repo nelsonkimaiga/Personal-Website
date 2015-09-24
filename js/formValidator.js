@@ -30,7 +30,7 @@ $(function() {
 				var parallax = parseInt(pos * -0.3) + 'px';
 				var rgba		 = (pos / headerHeight) * 0.4;
 
-				$('.ryan').css('margin-top', parallax);
+				$('.kimaiga').css('margin-top', parallax);
 				$('header').css('background', 'rgba(0,0,0,' + rgba);
 
 			
