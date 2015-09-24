@@ -72,4 +72,12 @@ header .kimaiga {
 	   -moz-animation-fill-mode: both;
 	     -o-animation-fill-mode: both;
 	        animation-fill-mode: both;
-	}	
+	}
+
+	header .avatar {
+		display: block;
+		border-radius: 50%;
+		width: 80px;
+		height: 80px;
+		margin: 0 auto;
+	}
