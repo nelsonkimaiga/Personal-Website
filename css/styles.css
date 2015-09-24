@@ -15,8 +15,61 @@ ol,ul {
 
 /*body styling*/
 body {
-	background: #f4f3f3 url(images/header.gif) repeat-x center top fixed;
+	background: #f4f3f3 url(images/) repeat-x center top fixed;
 	color: #444948;
 	font: normal 16px/24px "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: #214a64;
+}
+
+p strong {
+	font-family: ProximaNovaSemiBold;
+}
+
+h1 {
+		margin: 0 auto;
+	}
+
+	h1, h1 a {
+		width: 333px;
+		height: 242px;
+		display: block;
+	}
+
+h1 a {
+		text-indent: -9999px;
+		background: url(images/logo.png) no-repeat 0 0;
+		border: 0;
+		}
+
+header {
+		height: 526px;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+/*bounce effect for my header*/	
+header .kimaiga {
+		padding-top: 150px;
+		-webkit-animation-name: bounceInDown;
+		-moz-animation-name: bounceInDown;
+		-o-animation-name: bounceInDown;
+		animation-name: bounceInDown;
+
+	-webkit-animation-delay: 1s;
+		 -moz-animation-delay: 1s;
+		   -o-animation-delay: 1s;
+		      animation-delay: 1s;
+
+	-webkit-animation-duration: 1s;
+	   -moz-animation-duration: 1s;
+	     -o-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	   -moz-animation-fill-mode: both;
+	     -o-animation-fill-mode: both;
+	        animation-fill-mode: both;
+	}	
