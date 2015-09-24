@@ -1,6 +1,22 @@
-/*------------------ @reset ------------------*/
+/*----body styles-*/
 body,html { 
 margin:0; 
 padding: 0; 
 width: 100%;
 }
+
+ol,ul { 
+	margin:0; 
+	margin-left: 25px; 
+}
+
+
+
+
+/*body styling*/
+body {
+	background: #f4f3f3 url(images/header.gif) repeat-x center top fixed;
+	color: #444948;
+	font: normal 16px/24px "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
+}
+
